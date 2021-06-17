@@ -1,0 +1,20 @@
+{
+    "name": "bdm/bdm_smtp_disable_verify_peer",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "author": [
+        {
+            "name": "Benjamin Beck",
+            "role": "Developer",
+            "company": "BDM"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^10.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BDM\\BdmSmtpDisableVerifyPeer\\": "Classes"
+        }
+    }
+}
