@@ -10,11 +10,16 @@
         }
     ],
     "require": {
-        "typo3/cms-core": "^10.4.0"
+        "typo3/cms-core": "^10.4|^11.5"
     },
     "autoload": {
         "psr-4": {
             "BDM\\BdmSmtpDisableVerifyPeer\\": "Classes"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "bdm_smtp_disable_verify_peer"
         }
     }
 }
